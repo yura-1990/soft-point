@@ -21,6 +21,7 @@
 }
 
 .header__content {
+    margin-top: 35px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -52,7 +53,7 @@
 .header__link {
     color: #021206;
     font-size: 18px;
-
+    opacity: 0.5;
 }
 
 
@@ -96,6 +97,11 @@
     color: #24DC9F;
 }
 
+.main__intro {
+    display: flex;
+    gap: 69px;
+}
+
 .main__intro-p {
     font-family: Poppins;
     font-style: normal;
@@ -106,10 +112,91 @@
     opacity: 0.7;
     width: 509px;
     margin-top: 25px;
+    margin-bottom: 30px;
 }
-.span-intro-p{
+
+.span-intro-p {
     color: #292929;
     font-weight: 600;
+}
+
+.main__intro-form {
+    display: flex;
+    width: 472px;
+    height: 65px;
+    padding: 6px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.137);
+    border-radius: 6px;
+    margin-bottom: 35px;
+}
+
+.main__intro-form>input {
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #021206;
+    padding-left: 18px;
+}
+
+.main__intro-form>button {
+    width: 120px;
+    background: #F44545;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    color: #FFFFFF;
+}
+
+.main__intro-apps_mrr {
+    margin-right: 30px;
+}
+
+.mian__intro-rigth>img {
+    position: relative;
+}
+
+.background-1 {
+    position: absolute;
+    width: 136px;
+    height: 136px;
+    background: linear-gradient(180deg, #FEDF8B 0%, #FFC16B 100%), linear-gradient(180deg, #FFE6A2 0%, #F9D678 100%);
+    box-shadow: -4px 1px 80px rgba(246, 216, 135, 0.815);
+    border-radius: 80px;
+    top: 130px;
+    left: 970px;
+}
+
+.background-2 {
+    position: absolute;
+    z-index: -1;
+    width: 136px;
+    height: 136px;
+    background: linear-gradient(176.15deg, #8EE7CA 19.68%, #87D2BA 96.85%);
+    box-shadow: 0px 4px 70px rgba(155, 215, 195, 0.8);
+    border-radius: 80px;
+    top: 510px;
+    left: 1550px;
+}
+
+.main__intro-links {
+    display: flex;
+    align-items: center;
+    margin-top: 135px;
+    height: 163px;
+    background: rgba(142, 230, 201, 0.1);
+}
+.main__intro-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 /* main AbdulMalik end */
