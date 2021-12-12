@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,7 +6,7 @@
     text-decoration: none;
 }
 
-.container{
+.container {
     max-width: 1174px;
     width: 100%;
     margin-left: auto;
@@ -16,26 +16,26 @@
 }
 
 
-.logo{
+.logo {
     content: url(../img/Logo.png);
 }
 
-.header__content{
+.header__content {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.header__list{
+.header__list {
     display: flex;
     gap: 53px;
 }
 
-.header__acount{
+.header__acount {
     display: flex;
 }
 
-.btn{
+.btn {
     width: 130px;
     height: 60px;
     border-radius: 6px;
@@ -49,14 +49,67 @@
     justify-content: center;
 }
 
-.header__link{
+.header__link {
     color: #021206;
     font-size: 18px;
-    
+
 }
 
 
-.btn:hover{
+.btn:hover {
     background: #F44545;
     color: white;
 }
+
+/* main AbdulMalik start */
+.abdulmalik {
+    margin-top: 123px;
+    margin-bottom: 110px;
+}
+
+.main__intro-h1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 81px;
+    color: #021206;
+    width: 487px;
+}
+
+.one-step1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 81px;
+    color: #24DC9F;
+}
+
+.one-step2 {
+    font-size: 44px;
+    color: #24DC9F;
+}
+
+.one-step3 {
+    font-size: 34px;
+    color: #24DC9F;
+}
+
+.main__intro-p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 160%;
+    color: #021206;
+    opacity: 0.7;
+    width: 509px;
+    margin-top: 25px;
+}
+.span-intro-p{
+    color: #292929;
+    font-weight: 600;
+}
+
+/* main AbdulMalik end */gi
